@@ -1,13 +1,4 @@
 <?php
-/*
-Plugin Name: WP Twitter Trends
-Plugin URI: https://karson.com.tr
-Description: Twitter Trend Topics Extension
-Version: 0.1
-Author: Karson IT LTD
-Author URI: https://www.karson.com.tr
-License: GNU
-*/
 
 if (!defined('ABSPATH')) exit;
 add_action('admin_menu', 'WpTrend');
